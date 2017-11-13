@@ -1,0 +1,96 @@
+* {
+  font-family: sans-serif;
+  color: #a848f2;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 5px solid teal;
+  box-sizing: border-box;
+  height: 75vh;
+  position: relative;
+}
+
+#sub-container {
+  position: absolute;
+  /*width: 1500px;*/
+  top: 50%;
+  /*left: 50%;*/
+  transform: translate(0, -50%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.outer-lemon {
+  float: left;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  background-color: gray;
+  padding: 20px;
+  flex: auto;
+}
+
+.inner-lemon {
+  height: 100%;
+  position: relative;
+  padding: 15px;
+  background-color: lightblue;
+  border: 5px solid skyblue;
+}
+.inner-lemon h3 {
+  font-weight: lighter;
+  font-size: 1.3em;
+}
+
+.inner-lemon img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 120px;
+}
+
+.lemon-inset {
+  text-align: left;
+  padding: 6px;
+  border: 1px solid gray;
+  background-color: lightgray;
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  transform: translate(-5%, 10%);
+}
+
+.purple-border {
+  position: relative;
+  float: left;
+  margin-left: 50px;
+  width: 500px;
+  height: 300px;
+  border: 2px solid #c66eef;
+}
+
+.purple-header {
+  position: relative;
+  padding: 10px;
+  border-bottom: 2px solid #a848f2;
+}
+.abc{
+  position: relative;
+  left: 48%;
+}
+.youknowwhat{
+  position: relative;
+  left: 75%;
+  letter-spacing: 1.5em;
+}
+
+.purple-body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
